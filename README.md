@@ -1,10 +1,3 @@
 # Recipe Page
-Create a recipe page to showcase basic HTML and CSS.
-
-## Thoughts
-Tbd.
-
-## Tech Used
-- HTML
-- CSS
-
+## About
+A simple website made during the fundamental course on The Odin Project using HTML and CSS.
