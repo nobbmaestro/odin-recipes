@@ -30,8 +30,6 @@ hr.rounded {
 .nav-bar {
     display: flex;
     align-content: space-between;
-    color: rgba(60, 60, 60, 0.75);
-
     max-width: 1040px;
     margin: auto;
 }
@@ -40,5 +38,6 @@ hr.rounded {
     margin-right: 5px;
     margin-left: 5px;
     flex-grow: 1;
+    color: rgba(60, 60, 60, 0.75);
     text-transform: uppercase;
 }
