@@ -13,6 +13,9 @@
     align-items: center; 
     justify-content:center;  
 }
+#footer-wrap a {
+    color: white;
+}
 .footer-row {
     /* display: table-row; */
     height: 50px;

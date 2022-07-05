@@ -22,9 +22,9 @@ img {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 a:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(60, 60, 60, 0.75);
     opacity: 0.75;
 }
