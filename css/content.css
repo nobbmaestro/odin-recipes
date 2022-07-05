@@ -1,0 +1,35 @@
+.recipe-container {
+    max-width: 1024;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: scale;
+}
+.recipe-item {
+    width: 30%;
+    max-height: 1000px;
+    margin: 10px;
+    min-width: 250px;
+}
+.recipe-item:hover {
+    opacity: 0.75;
+}
+.recipe-item-description {
+    position: relative;
+    bottom: calc(20% + 5px);
+
+    width: 100%;
+    height: 20%;
+    
+    background-color: rgba(60, 60, 60, 0.75);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+.recipe-item-description-title {
+    text-transform: uppercase;
+    font-size: 18px;
+}

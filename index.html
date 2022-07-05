@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <title>Odin Recipes</title>
@@ -13,7 +14,7 @@
 
 <body>
     <div id="page-container">
-        <header id="header">
+        <header id="header-wrap">
             <div class="header-title">
                 <p class="header-title">Odin Recipes</p>
             </div>
@@ -35,81 +36,86 @@
         <div id="content-wrap">
             <div class="recipe-container">
                 <div class="recipe-item">
-                    <a href="./recipes/burger.html"><img src="./images/food/chefs-favorite-burger.png"
-                            alt="chefs-favorite-burger.png"></a>
+                    <a href="./recipes/burger.html">
+                        <img src="./images/food/chefs-favorite-burger.png" alt="chefs-favorite-burger.png">
+                    </a>
                     <div class="recipe-item-description">
-                        <p>Chef's Favorite Burger</p>
+                        <div class="recipe-item-description-title">
+                            <p>Chef's Favorite Burger</p>
+                        </div>
+                        <div class="recipe-item-description-summary">
+                            <p>Truffle Cheeseburger with Caramelized Onion</p>
+                        </div>
                     </div>
                 </div>
                 <div class="recipe-item">
-                    <a href="./recipes/pizza.html"><img src="./images/food/wifeys-neapolitan-pizza.png"
-                            alt="wifeys-neapolitan-pizza.png">
-                        <div class="recipe-item-description">
+                    <a href="./recipes/pizza.html">
+                        <img src="./images/food/wifeys-neapolitan-pizza.png" alt="wifeys-neapolitan-pizza.png">
+                    </a>
+                    <div class="recipe-item-description">
+                        <div class="recipe-item-description-title">
                             <p>Wifey's Neapolitan Pizza</p>
                         </div>
-                    </a>
-
+                        <div class="recipe-item-description-summary">
+                            <p>A Neapolitan pizza with Chevré, Truffle Burrata and more</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="recipe-item">
-                    <a href="./recipes/drink.html"><img src="./images/food/elderflower-mojito.png"
-                            alt="elderflower-mojito.png"></a>
+                    <a href="./recipes/drink.html">
+                        <img src="./images/food/elderflower-mojito.png" alt="elderflower-mojito.png">
+                    </a>
                     <div class="recipe-item-description">
-                        <p>Elderflower Mojito</p>
+                        <div class="recipe-item-description-title">
+                            <p>Elderflower Mojito</p>
+                        </div>
+                        <div class="recipe-item-description-summary">
+                            <p>A fresh drink for the worthy summer evenings</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <footer>
-                <div id="footer">
-                    <div>
-                        <!-- class footer-row -->
-                        Recipe project done by Norbert Batiuk
-                    </div>
-                    <div>
-                        <!-- class footer-row -->
+        <footer id="footer-wrap">
+            <div class="footer-row footer-row-item">
+                <p>The Odin Recipe Project done by Norbert Batiuk</p>
+            </div>
+            <div class="footer-row">
+                <div class="footer-row-item footer-row-item-left">
+                    <a href="https://www.theodinproject.com/about" target="_blank" style>
                         <div>
-                            <!-- class footer-col -->
-                            <a href="https://www.theodinproject.com/about" target="_blank">
-                                <div>
-                                    <img src="./images/icon/odin-project-icon.png" alt="odin-project-icon.png"
-                                        style="height:50px; width:50px">
-                                </div>
-                            </a>
+                            <img src="./images/icon/odin-project-icon.png" alt="odin-project-icon.png"
+                                style="height:50px; width:50px">
                         </div>
-                        <div>
-                            <!-- class footer-col -->
-                            <a href="https://www.theodinproject.com/about" target="_blank">
-                                <div>
-                                    The Odin Project
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <!-- class footer-row -->
-                        <div>
-                            <!-- class footer-col -->
-                            <a href="https://github.com/nobbmaestro" target="_blank">
-                                <div>
-                                    <img src="./images/icon/github-icon.png" alt="github-icon.png"
-                                        style="height:50px; width:50px">
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <!-- class footer-col -->
-                            <a href="https://github.com/nobbmaestro" target="_blank">
-                                <div>
-                                    @nobbmaestro
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </footer>
-        </div>
+                <div class="footer-row-item footer-row-item-right">
+                    <a href="https://www.theodinproject.com/about" target="_blank">
+                        <div>
+                            <p>About The Odin Project</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-row-item footer-row-item-left">
+                    <a href="https://github.com/nobbmaestro" target="_blank">
+                        <div>
+                            <img src="./images/icon/github-icon.png" alt="github-icon.png"
+                                style="height:50px; width:50px">
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-row-item footer-row-item-right">
+                    <a href="https://github.com/nobbmaestro" target="_blank">
+                        <div>
+                            <p>@nobbmaestro</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
