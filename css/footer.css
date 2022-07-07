@@ -29,6 +29,10 @@
     display: table-cell;
     width: 50%;
 } 
+.footer-row-item-image {
+    height: 40px;
+    width: 40px;
+}
 .footer-row-item-center {
     text-align: center;
 }
