@@ -21,23 +21,25 @@ hr.rounded {
    
 }
 .header-subtitle {
-    font-family: cinzel-decorative-regular;
+    /* font-family: cinzel-decorative-regular; */
     font-size: 14px;
-    color: rgb(60, 60, 60);
+    color: rgb(60, 60, 60, 0.75);
     position: relative;
     height: 50px;
 }
 .nav-bar {
     display: flex;
-    align-content: space-between;
+    /* align-content: space-between; */
+    align-content: center;
     max-width: 1040px;
     margin: auto;
 }
 .nav-item {
-    height: 15px;
+    height: 19px;
     margin-right: 5px;
     margin-left: 5px;
     flex-grow: 1;
     color: rgba(60, 60, 60, 0.75);
+    font-size: 12px;
     text-transform: uppercase;
 }
