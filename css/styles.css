@@ -7,10 +7,16 @@
     color: black;
     margin: 0;
 }
-#content-wrap {
+#content-wrap-home {
     padding-bottom: 200px;
     max-width: 1040px;
     margin: auto;
+}
+#content-wrap-recipe {
+    padding-bottom: 200px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
 }
 body {
     margin: 0px;
@@ -27,4 +33,12 @@ a {
 a:hover {
     color: rgba(60, 60, 60, 0.75);
     opacity: 0.75;
+}
+.back-to-top-buttom {
+    color: rgba(60, 60, 60, 1);
+    font-size: 24px;
+    font-style: italic;
+}
+ol {
+    text-align: left;
 }
