@@ -1,13 +1,10 @@
 .recipe-container {
-    max-width: 1024;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: scale;
 }
 .recipe-item {
     width: 30%;
-    max-height: 1000px;
     margin: 10px;
     margin-bottom: 20px;
     min-width: 250px;
