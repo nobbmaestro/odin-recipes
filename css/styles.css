@@ -34,8 +34,8 @@ a:hover {
     color: rgba(60, 60, 60, 0.75);
     opacity: 0.75;
 }
-.back-to-top-buttom {
-    color: rgba(60, 60, 60, 1);
+.back-to-top-button {
+    color: rgba(60, 60, 60, 0.75);
     font-size: 24px;
     font-style: italic;
 }
