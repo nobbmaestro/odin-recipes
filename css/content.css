@@ -29,7 +29,6 @@
     flex-direction: column;
 }
 .recipe-item-description-title {
-    /* text-transform: uppercase; */
     font-style: italic;
     font-size: 18px;
 }

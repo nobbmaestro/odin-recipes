@@ -1,6 +1,7 @@
 #page-container {
     position: relative;
     min-height: 100vh;
+    box-sizing: border-box;
 
     font-family: inria-serif-regular;
     font-size: 14px;
