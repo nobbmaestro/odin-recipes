@@ -1,5 +1,6 @@
 hr.rounded {
     border-top: 0.5px solid rgba(60, 60, 60, 0.25);
+    max-width: 1040px;
 }
 #header-wrap {
     display: flex;
