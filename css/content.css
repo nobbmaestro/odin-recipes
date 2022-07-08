@@ -1,24 +1,35 @@
 .recipe-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .recipe-item {
     width: 30%;
-    margin: 10px;
-    margin-bottom: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
     min-width: 250px;
+    flex: 1;
+}
+.left {
+    margin-left: 0px;
+}
+.right {
+    margin-right: 0px;
 }
 .recipe-item:hover {
     opacity: 0.75;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
 }
 .recipe-item-description {
+    box-sizing: border-box;
     position: relative;
     bottom: calc(20% + 3px);
 
     width: 100%;
     height: 20%;
+    padding: 10px;
     
     background-color: rgba(60, 60, 60, 0.75);
     color: white;
