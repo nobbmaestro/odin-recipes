@@ -8,17 +8,6 @@
     color: black;
     margin: 0;
 }
-#content-wrap-home {
-    padding-bottom: 200px;
-    max-width: 1040px;
-    margin: auto;
-}
-#content-wrap-recipe {
-    padding-bottom: 200px;
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
-}
 body {
     margin: 0px;
 }
